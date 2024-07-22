@@ -2,3 +2,13 @@ Python:
 High Level Language
 Platform independent
 dynamic address allocation
+
+Compiler:
+The translator is the cone that converts code into machine readable format which is binary.
+setup.exe/.apk - content of these files.
+it has a peice of code which installs all the content and it is ready to use.
+
+code has set of instructions that computer needs to do. Thr translator is called compilers.
+C,c++ goes through the code and spits out executable code if there are not errors.
+
+multiple compilers can exist GNU etc.
