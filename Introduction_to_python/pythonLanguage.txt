@@ -29,3 +29,8 @@ python VM..pvm..
 
 These steps provide platform independent advantage for python. PVM specifically has all the things required
 to achieve platform independentness
+
+Dynamic Typing: The type of the variable is figured out at run time.
+
+Literals: 
+
