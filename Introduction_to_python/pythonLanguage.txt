@@ -1,0 +1,4 @@
+Python:
+High Level Language
+Platform independent
+dynamic address allocation
