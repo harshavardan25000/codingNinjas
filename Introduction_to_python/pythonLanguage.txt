@@ -1,9 +1,11 @@
 Python:
+-------
 High Level Language
 Platform independent
 dynamic address allocation
 
 Compiler:
+---------
 The translator is the cone that converts code into machine readable format which is binary.
 setup.exe/.apk - content of these files.
 it has a peice of code which installs all the content and it is ready to use.
@@ -12,3 +14,18 @@ code has set of instructions that computer needs to do. Thr translator is called
 C,c++ goes through the code and spits out executable code if there are not errors.
 
 multiple compilers can exist GNU etc.
+
+Interpreter:
+------------
+It is another translator and is used by bash(Interpreted language).
+Does not read the whole file and converts. It does line by line execution
+
+Python lies in between and it uses best of both worlds(Interpreter/compiler)
+2 phases:
+-first compiles- converts the code into intermediate code and also knows as byte code(.byc).
+-Reads .byc code using interpreter and read line by line and execution of the final code happens.
+-Different flavours exist(jpython, python,cpython). cpython version is common and reading happens through
+python VM..pvm..
+
+These steps provide platform independent advantage for python. PVM specifically has all the things required
+to achieve platform independentness
