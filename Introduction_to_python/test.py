@@ -1,1 +1,1 @@
-num=int(input())
+print('A'-1)
