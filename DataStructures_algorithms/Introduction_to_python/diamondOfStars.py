@@ -1,21 +1,28 @@
 n=int(input())
+n=(n//2)+1
+for i in range(n-1):
 
-mid_line=(n//2)+1
-i=1
-
-while i<mid_line:
-    spaces=1
-    while spaces<=mid_line-i:
-        print(" ",end='')
-        spaces+=1
+    for j in range(i,n-1):
+        print(' ',end='')
     
-    j=spaces-1
-    while j<=mid_line-1:
+    for j in range(i+1):
         print('*',end='')
-        j+=1
-    
-    
-        
+
+    for j in range(i):
+        print('*',end='')
     print()
 
-    i+=1
+for i in range(n):
+
+    for j in range(i):
+        print(' ',end='')
+    
+    for j in range(i,n):
+        print('*',end='')
+
+    for j in range(i,n-1):
+        print('*',end='')
+
+
+    print()
+    
